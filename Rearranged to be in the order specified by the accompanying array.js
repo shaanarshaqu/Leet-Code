@@ -9,9 +9,9 @@
 
 
 function scramble(str, arr) {
-  let index = 0;
   newarr = [];
-
+  
+  let index = 0;
   for (let x of arr) {
     newarr[x] = str[index];
     index++;
